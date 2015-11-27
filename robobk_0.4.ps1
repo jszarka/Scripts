@@ -2,7 +2,7 @@
 $uncServer = "\\192.168.20.35"
 $uncFullPath = "$uncServer\d$"
 $username = "administrator"
-$password = "scada3400"
+$password = ""
  
 net use $uncServer $password /USER:$username
 
@@ -19,7 +19,7 @@ $EmailSubject = "Glencoe Morningside Robocopy Summary"
 $SMTPServer = "mail.szarka.ca"
 $SMTPPort = "25"
 $Username = "events@szarka.ca"
-$Password = "thunder54"
+$Password = ""
 # Copy Folder with Robocopy
 Robocopy $SourceFolder $DestinationFolder /MIR /LOG:$Logfile /TEE
 
