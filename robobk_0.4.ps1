@@ -1,3 +1,5 @@
+#James Szarka Robocopy script
+# ver. 0.4 
 #Network mounter
 $uncServer = "\\192.168.20.35"
 $uncFullPath = "$uncServer\d$"
@@ -15,7 +17,7 @@ $threads = "1"
 $EmailFrom = "events@szarka.ca"
 $EmailTo = "jszarka@szarka.ca"
 $EmailBody = "Robocopy has finished. Please Check Attached Logs for success."
-$EmailSubject = "Glencoe Morningside Robocopy Summary"
+$EmailSubject = "<hostname> Robocopy Summary"
 $SMTPServer = "mail.szarka.ca"
 $SMTPPort = "25"
 $Username = "events@szarka.ca"
